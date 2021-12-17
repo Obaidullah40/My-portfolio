@@ -27,17 +27,46 @@ const Contact = () => {
                     <div className="contact__box ms-5">
                         <div className="contact__meta">
                             <h1 className="hire__text">Hire Me.</h1>
-                            <p className="hire__text white">I am available for work. Connect with me via phone:</p>
-                           <p className="hire__text white"><strong>+880-1783683840</strong> or email <strong>nazmul.csenu@gmail.com</strong></p>
+                            <p className="hire__text white">
+                                I am available for work. Connect with me via
+                                phone:
+                            </p>
+                            <p className="hire__text white">
+                                <strong>+880 1838-113030</strong> or email{" "}
+                                <strong>
+                                    sheikhmuhammadobaidullah@gmail.com
+                                </strong>
+                            </p>
                         </div>
                         <form onSubmit={sendEmail}>
-                        <div className="input__box">
-                           <input type="text" className="contact name" placeholder="Your name *" />
-                           <input type="text" className="contact email" placeholder="Your Email *" />
-                           <input type="text" className="contact subject" placeholder="Write a Subject" />
-                           <textarea name="message" id="message" placeholder="Write Your message"></textarea>
-                           <button className="btn contact pointer" type="submit">Submit</button>
-                        </div>
+                            <div className="input__box">
+                                <input
+                                    type="text"
+                                    className="contact name"
+                                    placeholder="Your name *"
+                                />
+                                <input
+                                    type="text"
+                                    className="contact email"
+                                    placeholder="Your Email *"
+                                />
+                                <input
+                                    type="text"
+                                    className="contact subject"
+                                    placeholder="Write a Subject"
+                                />
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    placeholder="Write Your message"
+                                ></textarea>
+                                <button
+                                    className="btn contact pointer"
+                                    type="submit"
+                                >
+                                    Submit
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
